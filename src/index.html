@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PVA - Personal Verbal Abuser</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@1.11.0/dist/full.css" rel="stylesheet">
+ 
+</head>
+
+<body class="h-full">
+  <div class="bg-purple-900 text-white py-4 px-6">
+    <h1 class="text-4xl font-bold">PVA</h1>
+    <h4 class="text-s">A bean_frog app</h4>
+  </div>
+
+  <div class="flex h-screen">
+    <div class="w-1/4 bg-purple-800 text-white py-4 px-6">
+      <h2 class="text-xl font-bold">Current Timer</h2>
+      <div class="border-2 w-fit h-fit p-4 my-2" id="countdown-container"></div>
+      <button id="clear" class="btn btn-sm align-middle ">Clear</button>
+      <button id="pause" class="btn btn-sm align-middle">Pause</button>
+      <h2 class="text-xl font-bold">Options</h2>
+      <ul class="mt-4">
+        <li><a href="#" class="text-purple-300 hover:text-purple-100" id="global-settings">Global Settings</a></li>
+        <div class="flex items-center py-3">
+          <div class="flex-grow h-0.5 bg-purple-300"></div>
+        </div>
+        <li><a href="#" class="text-purple-300 hover:text-purple-100" id="regular-pva">Regular</a></li>
+        <li><a href="#" class="text-purple-300 hover:text-purple-100" id="random-pva">Random</a></li>
+        
+      </ul>
+    </div>
+    <div class="w-3/4 bg-gray-450 p-4" id="main-content">
+        <div class="hero-content text-center">
+          <div class="max-w-md">
+            <h1 class="text-5xl font-bold">Welcome to PVA!</h1>
+            <p class="py-6">Get started by selecting an option to the left.</p>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="h-20%">
+    <h5 class="text-xs">Made by bean_frog with Electron, Tailwind, and DaisyUI</h5>
+  </div>
+
+  
+</body>
+<script src="renderer.js"></script>
+</html>

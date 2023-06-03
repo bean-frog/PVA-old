@@ -1,0 +1,23 @@
+{
+  "name": "pva",
+  "version": "1.0.0",
+  "description": "personal verbal abuser for studying",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^13.1.7",
+    "electron-builder": "^22.14.7",
+    "tailwindcss": "^3.3.2"
+  },
+  "author": "bean_frog",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "daisyui": "^2.51.6",
+    "electron-notification-shim": "^1.1.0",
+    "node-notifier": "^10.0.1",
+    "sound-play": "^1.1.0"
+  }
+}
